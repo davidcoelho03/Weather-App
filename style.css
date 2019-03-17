@@ -10,7 +10,7 @@ body{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(rgb(47,150,163), rgb(241, 155, 155));
+  background: linear-gradient(rgb(47,150,163), rgba(255, 253, 229, 0.822));
   font-family: sans-serif;
 }
 
@@ -24,6 +24,10 @@ body{
 
 .temperature{
   flex-direction: column;  
+}
+
+.temperature-description{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .degree-section{
